@@ -1,1 +1,297 @@
-Hello World
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>resume</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <style type="text/css">
+    #resume1 {
+      font-family: 'Source Sans Pro', sans-serif;
+      font-size: 20px;
+      padding-bottom: 50px;
+    }
+    #resume1 a,
+    #resume1 a:focus,
+    #resume1 a:hover,
+    #resume1 a:visited {
+      color: #616161;
+    }
+    #resume1 h3 {
+      margin-bottom: 0;
+    }
+    #resume1 span {
+      display: inline-block;
+    }
+    #resume1 .row {
+      width: 100%;
+    }
+    #resume1 .half {
+      width: 44%;
+    }
+    #resume1 .half.left {
+      float: left;
+      text-align: right;
+      padding-left: 4%;
+      padding-right: 2%;
+    }
+    #resume1 .half.right {
+      float: right;
+      text-align: left;
+      padding-right: 4%;
+      padding-left: 2%;
+    }
+    #resume1 .center {
+      margin-left: auto;
+      margin-right: auto;
+    }
+    #resume1 .text-center {
+      text-align: center;
+    }
+    #resume1 .name {
+      border: 1px solid black;
+      text-transform: uppercase;
+      padding: 10px 20px;
+      margin-top: 80px;
+      margin-bottom: 5px;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 35px;
+      font-weight: 600;
+      letter-spacing: 10px;
+    }
+    #resume1 .position {
+      text-transform: uppercase;
+      font-family: 'Open Sans', sans-serif;
+      font-size: smaller;
+      color: #757575;
+      margin-bottom: 40px;
+    }
+    #resume1 .image {
+      width: 100px;
+      height: 100px;
+      margin-top: 50px;
+      margin-bottom: 50px;
+    }
+    #resume1 .image .img {
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+      background-image: url(./static/img/profile.jpg);
+      background-repeat: none;
+      background-position: center;
+      background-size: cover;
+    }
+    #resume1 .contact {
+      width: 100%;
+    }
+    #resume1 .contact table {
+      text-align: right;
+      float: right;
+      margin-top: 5px;
+      color: #616161;
+      font-size: 20px;
+    }
+    #resume1 .contact table i {
+      padding: 2px;
+      color: #616161;
+    }
+    #resume1 .contact table tr td:nth-child(2) {
+      vertical-align: top;
+    }
+    #resume1 .experience .experience-block span {
+      width: 100%;
+      color: #616161;
+    }
+    #resume1 .experience .experience-block span.company {
+      font-weight: bold;
+      padding-bottom: 5px;
+      padding-top: 10px;
+      color: #424242;
+    }
+    #resume1 .experience .experience-block span.job-title {
+      font-style: italic;
+    }
+    #resume1 .education-block span {
+      color: #616161;
+    }
+    #resume1 .education-block span.degree {
+      font-weight: bold;
+      padding-bottom: 5px;
+      padding-top: 10px;
+      color: #424242;
+    }
+    #resume1 .skills-other {
+      color: #616161;
+      margin-bottom: 10px;
+    }
+    #resume1 .skills {
+      margin-top: 20px;
+      margin-bottom: 10px;
+    }
+    #resume1 .skills .skill-block {
+      padding-bottom: 10px;
+      display: inline-block;
+    }
+    #resume1 .skills .skill-block .skill {
+      width: 100px;
+      color: #616161;
+      float: left;
+    }
+    #resume1 .skills .skill-block .skill-bar {
+      float: right;
+      background: #e0e0e0;
+      overflow: hidden;
+      height: 8px;
+      border-radius: 3px;
+      margin-top: 6.5px;
+      position: relative;
+      width: 249px;
+    }
+    #resume1 .skills .skill-block .skill-bar .level {
+      background: #757575;
+      height: 100%;
+    }
+    </style>
+  </head>
+  <body>
+    <div class="resume" id="resume1">
+      <div class="row text-center">
+        <span class="name">JONGHEE PARK</span>
+      </div>
+      <div class="row text-center">
+        <p class="position center">Full Stack Developer</p>
+      </div>
+      <div class="row">
+        <div class="image center">
+          <div class="img"></div>
+        </div>
+      </div>
+      <div class="left half">
+        <div class="experience">
+          <h3>Experience</h3>
+          <div class="experience-block">
+            <span class="company"> Tokyo Branch, Japan </span>
+            <span class="job-title"> CTO </span>
+            <span class="time-period"> since January 2016</span>
+            <span class="job-description"> PHP, Swift, Ruby on rails. <br /> Doing anything for making money. </span>
+          </div>
+          <div class="experience-block">
+            <span class="company"> D.FY, Korea </span>
+            <span class="job-title"> Principal Developer </span>
+            <span class="time-period"> since January 2014 to December 2016 </span>
+            <span class="job-description"> Frontend and Backend for Web Agency </span>
+          </div>
+          <div class="experience-block">
+            <span class="company"> Asakusa Games, Japan </span>
+            <span class="job-title"> Principal Developer </span>
+            <span class="time-period"> since January 2013 to December 2013 </span>
+            <span class="job-description"> Game programmer, Python Django  </span>
+          </div>
+          <div class="experience-block">
+            <span class="company"> MC Security, Japan </span>
+            <span class="job-title"> Senior Developer </span>
+            <span class="time-period"> since March 2006 to December 2010 </span>
+            <span class="job-description"> Security Solution Developer, Java Struts 2 </span>
+          </div>
+          <div class="experience-block">
+            <span class="company"> Weather News, Japan </span>
+            <span class="job-title"> Developer </span>
+            <span class="time-period"> since November 2004 to Feburary 2006 </span>
+            <span class="job-description"> Mobile Web Developer, Perl </span>
+          </div>
+          <div class="experience-block">
+            <span class="company"> Com2us, Korea </span>
+            <span class="job-title"> Developer </span>
+            <span class="time-period"> since May 2003 to September 2004 </span>
+            <span class="job-description"> Mobile Game Developer, C </span>
+          </div>
+          <div class="experience-block">
+            <span class="company"> Hihome, Korea </span>
+            <span class="job-title"> Developer </span>
+            <span class="time-period"> since April 2001 to April 2002 </span>
+            <span class="job-description"> Web Developer, Java </span>
+          </div>
+        </div>
+
+        <div class="contact">
+          <h3> Contact </h3>
+          <table>
+            <tr>
+              <td><a href="mailto:tenderain@gmail.com">tenderain@gmail.com</a></td>
+              <td><i class="fa fa-envelope" aria-hidden="true"></i></td>
+            </tr>
+            <tr>
+              <td>Minato-ku, Tokyo, Japan </td>
+              <td><i class="fa fa-home" aria-hidden="true"></i></td>
+            </tr>
+            <tr>
+              <td><a href="https://github.com/fri13th">https://github.com/fri13th</a></td>
+              <td><i class="fa fa-github" aria-hidden="true"></i></td>
+            </tr>
+            <tr>
+                <td><a href="https://github.com/ling-framework">https://github.com/ling-framework</a></td>
+                <td><i class="fa fa-github" aria-hidden="true"></i></td>
+              </tr>
+            </table>
+        </div>
+      </div>
+      <div class="right half">
+        <div class="education">
+          <h3>Education</h3>
+          <div class="education-block">
+            <span class="degree">Bachelor's Degree</span>
+            <span class="degree-description">Major in Dept. of Electrical Engineering, Seoul National University, Korea</span>
+          </div>
+        </div>
+        <h3>Skills</h3>
+        <div class="skills">
+          <div class="skill-block">
+            <span class="skill">PHP</span>
+            <div class="skill-bar">
+              <div style="width: 70%" class="level"> </div>
+            </div>
+          </div>
+          <div class="skill-block">
+            <span class="skill">Javascript, Node.js</span>
+            <div class="skill-bar">
+              <div style="width: 60%" class="level"> </div>
+            </div>
+          </div>
+          <div class="skill-block">
+            <span class="skill">HTML5, CSS3</span>
+            <div class="skill-bar">
+              <div style="width: 60%" class="level"> </div>
+            </div>
+          </div>
+          <div class="skill-block">
+            <span class="skill">Java</span>
+            <div class="skill-bar">
+              <div style="width: 60%" class="level"> </div>
+            </div>
+          </div>
+          <div class="skill-block">
+            <span class="skill">Python</span>
+            <div class="skill-bar">
+              <div style="width: 60%" class="level"> </div>
+            </div>
+          </div>
+          <div class="skill-block">
+            <span class="skill">Perl</span>
+            <div class="skill-bar">
+              <div style="width: 50%" class="level"> </div>
+            </div>
+          </div>
+          <div class="skill-block">
+            <span class="skill">Ruby</span>
+            <div class="skill-bar">
+              <div style="width: 40%" class="level"> </div>
+            </div>
+          </div>
+        </div>
+        <span class="skills-other"> I used Lua, Go, Rust and many other languages also. Language doesn't matter much. </span>
+      </div>
+    </div>
+
+
+  </body>
+</html>
